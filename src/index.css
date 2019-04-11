@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: rgb(229, 241, 232);
+}
+
+.page-container {
+  width: 800px;
+  margin: 10px auto;
+  padding: 20px 0px;
+  background-color: aliceblue;
+}
+
+.product-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product-list .product-list-item {
+  padding: 10px 30px;
+  width: 200px;
+}
